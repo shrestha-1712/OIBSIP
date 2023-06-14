@@ -1,0 +1,276 @@
+.navbar{
+    color:black;
+    font-size: 30px;
+    display:flex;
+    justify-content: space-between;
+    margin-right:100px;
+    margin-left:30px;
+ 
+}
+.navbar:hover{
+  cursor:pointer;
+  color:yellow;
+}
+.logo{
+    padding-left:30px;
+    margin-left:90px;
+    
+}
+.text{
+    position:absolute;
+    bottom:4px;
+    left:50px;
+    top:500px;
+    color:#006666;
+
+}
+.text1{
+  position:absolute;
+  bottom:4px;
+  left:50px;
+  top:500px;
+  color:#006666;
+
+}
+
+.perfect{
+    color:black;
+    btn-color:red;
+}
+.perfect1{
+  color:black;
+  btn-color:red;
+}
+/* .carousel-item active{
+    animation-duration: 2s;
+
+} */
+.talent{
+    background-color:yellow;
+    color:black;
+    display:flex;
+    justify-content:space-evenly;
+    margin-left:5px;
+    line-height: 150px;
+    font-size: 20px;
+}
+.icon{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top: 50px;
+}
+.expert{
+    color:#006666;
+    background-color: rgb(192, 185, 185);
+   
+   text-align: center;
+   margin-left: 0%;
+   margin-right: 0%;
+}
+.color{
+    color:grey;
+  
+  text-align: center;
+}
+
+.line{
+    color:yellow;
+  text-align: center;
+  margin-top: 0%;
+
+}
+.container2{
+  height:50%;
+  width:40%;
+  justify-content: space-between;
+}
+.container1 {
+  position: relative;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 100px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 31.4%;
+  height: 0;
+  transition: .5s ease;
+  justify-content: space-evenly;
+}
+
+.container1:hover.overlay {
+  height: 100%;
+  
+}
+
+.text1 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  justify-content: space-between;
+}
+.card-img-top{
+  height:190px;
+  width:50px;
+
+
+}
+.circle{
+  display:flex;
+  justify-content: space-evenly;
+  background-color:#F7BA33;
+  
+  
+}
+.circle1{
+  width: 270px;
+  height:270px;
+  background-color:#006B63;
+  border-radius: 50%;
+}
+.circle2{
+  width: 270px;
+  height:270px;
+  background-color:white;
+  border-color: yellow; 
+  border-radius: 50%;
+}
+.circle3{
+  width: 270px;
+  height:270px;
+  background-color:#006B63;
+  border-radius:50%;
+  text-align: center;
+  vertical-align: middle;
+  
+}
+.indent{
+  /* margin-left: 70px; */
+  margin-top: 40px;
+  color:white;
+  text-align: center;
+}
+.indent2{
+  margin-top: 40px;
+  /* margin-left: 75px; */
+  color:grey;
+  text-align: center;
+}
+
+.experience{
+  background-color: aliceblue;
+  text-align: center;
+  color:#006666;
+}
+.exp{
+  display: flex;
+}
+.recruiting{
+  display: flex;
+}
+.exp{
+  justify-content: space-evenly;
+  margin:100px;
+  margin-left: 170px;
+}
+.recruiting{
+  justify-content: space-evenly;
+  margin:100px;
+  margin-left: 200px;
+}
+.exp:p{
+  text-align: center;
+}
+.recruiting:p{
+  text-align: center;
+}
+.fl{
+  display: flex;
+  background-color: aliceblue;
+  color:#006666;
+  margin-left: 70px;
+}
+.job button{
+  background-color:yellow;
+margin-left:1200px;
+margin-top: 0.2px;;
+}
+.fi{
+  color:yellow;
+  
+}
+.consultext{
+  margin-left: 60px;
+}
+.line3{
+  color:yellow;
+  text-align: center;
+}
+.hear{
+  color:grey;
+  text-align: center;
+
+}
+.best{
+  color:#006666;
+  text-align: center;
+}
+
+/* .carousel-inner1{
+   height: 100px;
+   width:100px; */
+   /* margin-left: px;
+   margin-right: 150px; */
+
+/* .carousel-inner1.carousel-item1 active img{
+  height:100px;
+  width:100px;
+} */
+.carousel-control-prev-icon{
+  background-color: black;
+}
+.carousel-control-next-icon{
+  background-color: black;
+  
+
+}
+.card-group{
+  justify-content: space-evenly;
+}
+.assist{
+  background-color: yellow;
+  margin-top: 10px;
+  height:50px;
+  display:flex;
+  justify-content: space-between;
+}
+.final{
+  background-color: #006666;
+  display: flex;
+  /* margin-left: 50px;
+  margin-right: 50px; */
+  padding-left: 50px;
+  padding-right: 50px;
+  justify-content: space-between;
+  color:white;
+}
+

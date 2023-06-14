@@ -1,0 +1,94 @@
+ <!-- <div class="container">
+        <div class = "row">
+            <div class = "card">
+                <h1>$39/month</h1>
+                <h3>Basic License</h3>
+                <h4>Our government backed plan designed to keep your business legaly and secure</h4>
+                
+                    <li>Secure your customer age</li>
+                    <li>View basic analytics</li>
+                    <li>Up to 350 customer profiles</li>
+                    <li>Custom network name</li>
+                
+             <a href="#" class="btn">Your Current Plan</a>
+            </div>
+            
+            <div class = "card">
+                <h1>$55/month</h1>
+                <h3>Social License</h3>
+                <h4>Unlimited Analytics, plans, demographic insights. All you need to grow-up your business</h4>
+                
+                    <li>Add your own branding</li>
+                    <li>View popularity analytics</li>
+                    <li>Up to 1500 customer profiles</li>
+                    <li>View demographic insights</li>
+                
+                <a href="#" class="btn">Upgrade to Social</a>
+            </div>
+            
+            <div class = "card">
+                <h1>$99/month</h1>
+                <h3>Marketing License</h3>
+                <h4>Unlock powerful time saving tools for creating email delivery and collecting marketing data</h4>
+                
+                    <li>Collect marketing data</li>
+                    <li>Design your emails</li>
+                    <li>Email campaigns & interactions</li>
+                    <li>View your customer's profiles</li>
+                
+                <a href="#" class="btn">Upgrade to Marketing</a>
+            </div>
+        </div>
+</div>
+
+STYLE.CSS
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:olive;
+    line-height: 1.5;
+}
+
+.container{
+    width: 1100px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card{
+    flex: 1 1 21rem;
+    margin: 10px 20px;
+    background: rgb(245, 249, 245);
+    box-shadow: 0 0 15px rgba(0,0,0,0,4);
+    padding: 100px 20px;
+}
+.card h3{
+    color:red;
+}
+.card h4{
+    font-style:normal;
+    
+}
+.card p{
+    margin-bottom:10px ;
+}
+.card .btn{
+    display: inline-block;
+    background:yellow;
+    color:purple;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
